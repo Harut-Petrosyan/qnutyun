@@ -10,7 +10,7 @@ function Header() {
         <Link to="/info" className='link'>Info</Link>
         <Link to="/about" className=' m-4'>
           <li>
-            About
+            Bascet
           </li>
           </Link>
         <Link to="/contact" className=' m-4'>

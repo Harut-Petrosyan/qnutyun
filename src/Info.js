@@ -2,34 +2,49 @@ import React from 'react'
 
 function Info() {
   return (
-    <div>
-      <h1 className='info'>If you compare how product pages take shape across different companies, it's clear they run the gamut. Some go for the direct approach, displaying an image of a product and explaining why someone should buy it. Other companies create elaborate pages with moving parts and fancy, interactive elements.</h1>
-      <h1 className='info'>Still, other companies create delightful product pages that give users an authentic experience as they browse through what the company has to offer.</h1>
-      <h1 className='info'>Believe it or not, the most captivating product pages don’t always have enterprise-level programming behind them. To give you an idea of what's possible — from small business all the way up to household names — we scouted out 20 examples that we find truly admirable.
+    <div className='Info'>
+      <h1 className='infosh'>Information on my product page</h1>
+      <h1 className='information'>A product page contains essential information about a product a customer is interested in, including a description, item specifications, images, pricing, FAQs and more.</h1>
+      <h1 className='information'>High-quality product content can play a critical role in online purchase decisions.
 
-The pages below have mastered their messaging, value propositions, and general product descriptions such that these sites resonate with their unique buyer persona.
+A product page contains essential information about a product a customer is interested in, including a description, item specifications, images, pricing, FAQs and more. The best product pages can help overcome the disconnect that naturally occurs in online shopping: customers can’t see, touch or try the product before purchase.
 
-(And after checking out these pages, you might want to buy their products, too.)</h1>
-<h1 className='info'>Bellroy sells thinner-than-typical wallets. There's value to that — but what is it, and how do you get the consumer to understand it?
+Consequently, the page must provide all the relevant information and alleviate any misgivings the customer has about purchasing from an ecommerce store.
 
-To answer those questions, Bellroy divided its product page into three stages of the buyer's journey — understanding the problem, how to fix the problem, and how Bellroy can resolve the problem.
+A product page serves several distinct purposes, including:
 
-There's even an interactive section that shows how the skinny wallet will fill up in comparison to standard wallets. As users move a slider back and forth along a line, both of the wallets fill up with cards and cash, visually displaying the very problem Bellroy's skinny wallet solves.</h1>
-<h1 className='info'>Square is a mobile transaction company that merchants use to collect payment from customers — anywhere, any time, as long as they have a compatible phone or tablet.
+Provide detailed product information: The page should include essential details about the product, such as its features, benefits, dimensions and specifications.
 
-The product marketing challenge here is to show why Square is an easier alternative than a typical cash register — and its product page displays those reasons in a visually captivating way.
+Build trust: Well-crafted product detail pages anticipate any questions or concerns customers may have, minimizing doubt regarding their purchase.
 
-The rest of the page is clearly organized headlines — which reads like answers to frequently asked questions — plenty of white space, succinct copy, and appropriate images. Anyone looking into each section can understand exactly how Square works at every stage of a transaction.</h1>
-<h1 className='info'>Some companies — especially in ecommerce — have up to thousands of product pages. Rent the Runway, an online dress rental company, is one of them.
+Encourage conversions: Educating the customer, building trust and highlighting product features and benefits increase the chances of a sale.
 
-Rent the Runway has an individual product page for every dress it carries, with all the information a customer could want — images, measurements, fabric, price, and reviews. So what sets them apart? The exceptional detail of the "Stylist Notes" and "Size & Fit" sections.
+A simple layout, clear call-to-action, and engaging copy can help drive conversions. Here’s a guide to creating compelling product pages that help the user experience.
 
-These details are clearly and carefully curated by stylists and reviewers. They don't just explain what a dress is made of and how it looks — they cover how it fits on every part of the body, which undergarments should be worn with it, and for which body types it's best suited. That kind of information not only delights customers and encourages their trust, but it also makes for a more confident buying decision.</h1>
-<h1 className='info'>Daily Harvest develops superfoods in the form of smoothies, soups, and more, and delivers them to your doorstep. What makes these foods' product pages so outstanding? They show you exactly what makes these foods so super in a format that's both clear and digestible — no pun intended.
+</h1>
+      <h1 className='information'>A well-designed ecommerce product page personalizes the shopping experience by offering product recommendations, displaying the most relevant information according to the user’s search intent and optimizing the layout for the user's device.
 
-Check out one of Daily Harvest's smoothie product pages, below. Not only can you see what the smoothie looks like, but hovering over the lefthand preview icon, below the main image, shows you the foods used to create this drink. Scroll down, and you'll see each ingredient and a simple description of each one.</h1>
-    </div>
-  )
-}
+For example, if a customer is browsing for a particular product feature (eg: “self-cleaning cat litter box”), the page can highlight that feature and provide in-depth information about it. This can improve the customer experience and increase the likelihood of a sale.</h1>
+      <h1 className='information'>No matter how thorough your product page is, you can’t anticipate every conceivable customer question. Live chat support, including a homepage pop-up, enables customers to receive immediate answers to their queries, boosting satisfaction and trust.
+
+If a potential buyer has to email customer support and await a response, this creates a communication barrier and increases the likelihood they’ll purchase from a competitor in the meantime. An expedient resolution increases the chances of a sale.</h1>
+      <h1 className='information'>Great product pages contain comprehensive information about the item. The page template should be structured in an easy-to-read format, with relevant information presented in a logical order.
+
+Here are the key elements of an effective product page:
+
+Product description: Include all essential details about the product, including its features, benefits, uses and specifications. This includes measurements and dimensions, materials and care instructions.
+
+Product images and videos: Include high-resolution product photos and videos that showcase the product from multiple angles and depict how it looks in real life. Enable customers to zoom in and out of images.
+
+Product configurator (if applicable): A product configurator enables customers to interact with a 3D rendering of a product and apply customer features such as colors, materials or upgrades. This functionality is ideal for customizable items.
+
+Pricing and availability: Include applicable taxes, shipping and other applicable fees, plus available discounts or promotions.
+
+Customer reviews and ratings: Positive customer testimonials provide social proof and boost credibility, helping customers make an informed purchase decision.
+
+Product comparison: A comparison table shows how the product compares to similar go
+</h1>
+</div>
+)}
 
 export default Info

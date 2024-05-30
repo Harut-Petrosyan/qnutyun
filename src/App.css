@@ -2,6 +2,8 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 18px;
   color: white;
+  text-decoration: none;
+  list-style: none;
 }
 
 .App{
@@ -9,7 +11,10 @@
   margin: 50px auto;
 }
 
-
+.contact>h1{
+  color: rgb(60, 60, 60);
+  font-size: 50px;
+}
 
 header li{  
   display: inline;
@@ -18,21 +23,92 @@ header li{
   float: right;
 }
 
+.images>li{
+  color: white;
+}
+
+.images>.li3{
+  color: rgb(9, 255, 26);
+}
+
+.images{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 470px;
+  height: 850px;
+  background-color: rgb(105, 105, 105);
+  border-radius: 15px;
+}
+
+.images>img{
+  width: 330px;
+  height: 470px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  color: white;
+  border: 2px solid black;
+  box-shadow: 15px 10px 10px rgb(0, 0, 0);
+  transition: 500ms;
+}
+
 .link{
+  margin: 4px;
   color: black;
 }
 
 .logo{
-  background-image: url("./images.jpeg");
+  background-image: url("./orlean-sv-641460a9c73a1-800x500.jpg");
   width: 100%;
-  height: 500px;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center center ;
   margin: 20px auto;
+  position: relative;
+  background-blend-mode: multiply;
+  background-color: #bcbcbc;
 }
 
+header .logo::after{
+  content: 'Лучшие качественые товары для вас';
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  top: 150px;
+  left: 70px;
+  width: 300px;
 
+}
+
+header .logo::before{
+  position: absolute;
+  content: 'По низким ценам';
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 300;
+  top: 330px;
+  left: 70px;
+  width: 300px;
+
+}
+
+.about2{
+  color: rgb(47, 47, 47);
+  font-size: 45px;
+  text-align: center;
+}
+
+.about{
+  text-align: center;
+  color: rgb(56, 55, 55);
+  font-size: 40px;
+}
 
 button{
   width: 200px;
@@ -43,7 +119,20 @@ button{
   margin: 15px;
 }
 
+a{
+  width: 200px;
+  border: 2px solid white;
+  color: white;
+  transition: 1s;
+  border-radius: 50px;
+  margin: 15px;
+}
+
 button:hover{
+  background-color: red;
+}
+
+.bto:hover{
   background-color: red;
 }
 
@@ -67,8 +156,8 @@ footer{
 }
 
 .im{
-  width: 500px;
-  height: 970px;
+  width: 400px;
+  height: 570px;
   background-color: rgb(231, 227, 227);
   display: flex;
   align-items: center;
@@ -78,13 +167,44 @@ footer{
   color: white;
   border: 2px solid black;
   box-shadow: 15px 10px 10px rgb(0, 0, 0);
+  transition: 500ms;
+}
+
+.image>h1{ 
+  
+  color: black;
+}
+
+.delete{
+  font-size: 25px;
+  width: 20px;
+  border: none;
+  color: red;
+}
+
+.delete:hover{
+  font-size: 25px;
+  width: 20px;
+  border: none;
+  color: black;
+}
+
+.im:hover{
+  width: 405px;
+  height: 580px;
 }
 
 .li1{
   color: rgb(92, 92, 92);
-  padding: 25px;
+  padding: 5px;
   text-align: center;
 }
+
+.li4{
+  color: rgb(92, 92, 92);
+  padding: 5px;
+}
+
 
 .li2{
   color: rgb(92, 92, 92);
@@ -94,19 +214,13 @@ footer{
 
 
 .li3{
-  color: rgb(99, 98, 98);
-  text-align: center;
-}
-
-.li4{
   text-align: center;
   color: green;
 }
 
-
 .image{
   width: 250px;
-  height: 350px;
+  height: 310px;
   border-radius: 50px;
 }
 
@@ -115,6 +229,15 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 185px;
+}
+
+.bto{
+  color: rgb(0, 255, 51);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 185px;
 }
 
 .numbers{
@@ -129,45 +252,4 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.Proda{
-  color: white;
-  font-size: 25px;
-}
-
-header li{
-  color: rgb(142, 139, 139);
-  transition: 500ms;
-}
-
-header li:hover{
-  opacity: 0.5;
-}
-
-header .link{
-  color: rgb(142, 139, 139);
-  transition: 500ms;
-}
-
-header .link:hover{
-  opacity: 0.5;
-}
-
-.info{
-  width: 100%;
-  color: black;
-}
-
-.blog{
-  color: black;
-  text-align: center;
-  font-size: 35px;
-}
-
-main{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
 }
